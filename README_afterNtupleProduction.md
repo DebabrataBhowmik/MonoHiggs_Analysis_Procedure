@@ -20,3 +20,7 @@ check the path inside myrunAddWeightsAll.sh and run
 
 ./myrunSkimAll.sh
 
+Then go to ../../fits i.e. (analysis/fits) and run
+
+./myformatNtupleForFitting_METcat.sh
+
