@@ -30,4 +30,5 @@ cp -r /afs/cern.ch/work/d/dbhowmik/public/Analysis/MHgg/2017Analysis/CMSSW_9_4_6
 
 ./combine_maker_MonoHgg.sh "ntuples4fit_pho_newSig_test_met0_met130" --lumi 41.529 --fit-name cic --mc-file Output_MC.root --fit-background --redo-input 1
 
-./mycombineall_MonoHgg2HDMa.sh {INDIR} --hadd --model ZpBaryonic -C 0.9 -M AsymptoticLimits --run both
+./mycombineall_MonoHgg2HDMa.sh {INDIR} --hadd --model 2HDMa -C 0.9 -M AsymptoticLimits --run both
+
