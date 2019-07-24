@@ -32,4 +32,4 @@ cp -r /afs/cern.ch/work/d/dbhowmik/public/Analysis/MHgg/2017Analysis/CMSSW_9_4_6
 
 ./mycombineall_MonoHgg2HDMa.sh {INDIR} --hadd --model 2HDMa -C 0.9 -M AsymptoticLimits --run both
 
-./mylimit_plots_MonoHgg.sh ntuples4fit_pho_2HDMa_QCD_ma150_met0_met130_cic_default_shapes_lumi_41.529
+./mylimit_plots_MonoHgg.sh "ntuples4fit_pho_2HDMa_QCD_ma150_met0_met130_cic_default_shapes_lumi_41.529"
